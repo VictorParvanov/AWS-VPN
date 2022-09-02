@@ -4,3 +4,9 @@ VPN Documentation
 Optimize cloud resource(AWS)
 Create free VPN-Server (for 1 year)
 
+Setup:
+1. Create new AWS free teir account
+2. Manage root account (MFA)
+3. Create new group and admin account
+4. log in with new credentials
+5. Set Budget Alets!

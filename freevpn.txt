@@ -10,3 +10,19 @@ Setup:
 3. Create new group and admin account
 4. log in with new credentials
 5. Set Budget Alets!
+
+
+Configure:
+1. Go to EC2 in the menu
+2. Select a AMI(Amazon Machine Image) form the Marketpalce (OpenVPN-a Ubuntu image with pre-Configure OpenVPN server.)
+3. Select a key-pair
+4. Launch instance
+5. Connect to the instance with ssh: (terminal, cmd, etc.)
+6. Accept all pre-Configure settings if you don't want to change some.
+7. When all clicking is done and you are in the command line log in with "openvpnas" user insted of root. 
+(ssh -i "key-pair" root@ec2-*-**-***-***.compute-*.amazonaws.com ---> ssh -i "key-pair" openvpnas@ec2-*-**-***-***.compute-*.amazonaws.com)
+8. When in openvpnas user type "sudo passwd" and the user
+9. Choose you password.
+10. Coppy your public adress form AWS console and paste it in the browser.
+11. log in with the user that you create form step (8 and 9)
+12. Done!
